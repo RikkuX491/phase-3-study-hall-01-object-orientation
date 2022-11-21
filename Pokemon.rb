@@ -1,0 +1,19 @@
+class Pokemon
+
+    def initialize(name)
+        @name = name
+    end
+
+    def name
+        @name
+    end
+
+    def name=(name)
+        @name = name
+    end
+
+    def name_upcased
+        @name.upcase
+    end
+
+end
